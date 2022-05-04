@@ -21,3 +21,12 @@ export default function connectDb () {
     // return the connection to Firestore
     return getFirestore();  
 }
+
+// export default function connectDb () {
+//     if(getApps().length === 0){
+//         initializeApp({
+//             credential: cert(myCredentials)
+//         })
+//     }
+//     return getFirestore();  
+// }
